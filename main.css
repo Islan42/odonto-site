@@ -45,6 +45,22 @@ textarea {
     resize: vertical;
 }
 
+.msg-container {
+    background-color: greenyellow;
+    padding: 8px;
+    margin: 8px 0;
+    display: none;
+
+}
+
+.msg-container p {
+    margin: 0;
+}
+
+.msg-container.visible {
+    display: block;
+}
+
 @media (min-width: 800px) {
     header {
         display: flex;
