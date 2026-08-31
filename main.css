@@ -7,6 +7,15 @@ header {
     padding: 8px
 }
 
+header a {
+    text-decoration: none;
+    color: blue;
+}
+
+header h1 a {
+    color: black;
+}
+
 body {
     background-color: whitesmoke;
 }
@@ -87,7 +96,7 @@ textarea {
 
     body {
         margin: auto;
-        width: 1200px;
+        width: 1000px;
     }
 
     form #btn-enviar-email {
