@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odonto Site</title>
     <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
@@ -39,11 +40,11 @@
             </p>
         </section>
         <section id="contato">
+            <h2>Contatos Imediatos</h2>
             <p>
                 Na Odonto Site, entendemos que o tempo e o bem-estar dos nossos pacientes são preciosos. Por isso, oferecemos horários flexíveis de atendimento, facilidade no agendamento online e formas de pagamento acessíveis. Se você procura um atendimento odontológico de qualidade, ético e feito sob medida para você e sua família, agende uma avaliação conosco e venha descobrir como é bom sorrir com confiança!
             </p>
-            <h2>Contatos Imediatos</h2>
-            <p>Mande-nos uma mensagem</p>
+            <p>Mande-nos uma mensagem e agende o seu atendimento:</p>
 
             <form>
                 <label>Nome: 
@@ -52,14 +53,21 @@
                 <label>Email: 
                     <input type="email" name="email">
                 </label>
+                <label>Telefone:
+                    <input type="text">
+                </label>
                 <label>Mensagem:
-                    <textarea name="mensagem"></textarea>
+                    <textarea name="mensagem" cols="50" rows="6"></textarea>
                 </label>
                 <input type="button" value="Enviar" id="btn-enviar-email">
             </form>
+            <div class="msg-container">
+                <p>Mensagem enviada com sucesso.</p>
+            </div>
         </section>
     </main>
     <footer>
+        <h2>Odonto Site</h2>
         <p>Rua A, 202, Smallvile <br>
         Telefone: +55 (01) 91234-5678 <br>
         Email: odontosite@email.com</p>
